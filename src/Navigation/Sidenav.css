@@ -1,0 +1,35 @@
+.sidenav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 38px 26px 10px 18px;
+    width: min-content;
+}
+.sidenav_logo
+{
+    width: 86%;
+}
+.sidenav_buttons{
+    display: flex;
+    flex-direction: column;
+    
+}
+.side_button{
+    display: flex;
+    margin: 10px 14px 10px 0px;
+    background-color: black;
+    color: white;
+    border: 0;
+    width: 180px;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px 13px 10px 10px;
+}
+.side_button:hover{
+    background-color: rgba(48, 48, 48, 0.427);
+}
+span{
+    font-size: 16px;
+    margin: 0px 0px 0px 12px;
+}

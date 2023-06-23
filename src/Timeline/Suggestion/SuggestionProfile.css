@@ -1,0 +1,35 @@
+.suggested_profile{
+    display: flex;
+    align-items: center;
+    margin: 16px 0px 15px 0px;
+    justify-content: space-between;
+}
+
+.profile_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile_logo,.profile_name{
+    margin: 0px 10px 0px 10px;
+
+}
+.follower{
+    font-size: 10px;
+}
+.suggestion_header >p{
+    color: #838383;
+    font-weight: 500;
+    font-size: 20px;
+}
+.suggestion_header >a{
+margin-left: 3pc;
+text-decoration: none;
+color: white;
+}
+.view a{
+    text-decoration: none;
+    color: dodgerblue;
+    font-weight: 600;
+}
+
